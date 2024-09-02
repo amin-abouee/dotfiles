@@ -1,0 +1,1 @@
+/home/aabouee/.wezterm.lua
