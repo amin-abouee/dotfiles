@@ -1,0 +1,128 @@
+format = """\
+[](bg:#030B16 fg:#7DF9AA)\
+$os\
+$username\
+[](fg:#7DF9AA bg:#1C3A5E)\
+$time\
+[](fg:#1C3A5E bg:#3B76F0)\
+$directory\
+[](fg:#3B76F0 bg:#FF6347)\
+$conda\
+[](fg:#FF6347 bg:#FCF392)\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metric\
+$git_status\
+[](fg:#FCF392 bg:#696969)\
+$cmd_duration\
+[ ](fg:#696969)\
+"""
+
+[os]
+disabled = false
+style = "bg:#7DF9AA fg:#090c0c"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+EndeavourOS = ""
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[username]
+show_always = true
+style_user = "bg:#7DF9AA fg:#090c0c"
+style_root = "bg:color_orange fg:color_fg0"
+format = '[ $user ]($style)'
+
+[directory]
+format = "[ $path ]($style)"
+style = "fg:#E4E4E4 bg:#3B76F0"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+[conda]
+ignore_base = false
+style = "fg:#202020 bg:#FF6347"
+format = '[ $symbol( $environment) ]($style)'
+
+[git_branch]
+format = '[ $symbol$branch(:$remote_branch) ]($style)'
+symbol = " "
+style = "fg:#1C3A5E bg:#FCF392"
+
+[git_commit]
+commit_hash_length = 7
+tag_symbol = "🏷 "
+only_detached = false
+style = "fg:#1C3A5E bg:#FCF392"
+format = '[@$hash$tag]($style)'
+
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+cherry_pick = "[🍒 PICKING](bold red)"
+rebase = "[REBASING](bold blue)"
+merge = "[MERGING](bold yellow)"
+revert = "[REVERTING](bold green)"
+bisect = "[BISECTING](bold purple)"
+am = "[AM](bold cyan)"
+am_or_rebase = "[AM/REBASE](bold blue)"
+style = "fg:#1C3A5E bg:#FCF392"
+
+[git_status]
+format = '[ \[$all_status\] ]($style)'
+conflicted = "=${count}"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "?${count}"
+stashed = "⚑${count}"
+modified = "!${count}"
+staged = "+${count}"
+renamed = "»${count}"
+deleted = "✘${count}"
+style = "fg:#1C3A5E bg:#FCF392"
+
+[git_metrics]
+format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
+added_style = "fg:#1C3A5E bg:#FCF392"
+deleted_style = "fg:bright-red bg:235"
+disabled = false
+
+[cmd_duration]
+min_time = 1000
+format = "[  $duration ]($style)"
+style = "fg:white bg:#696969"
+
+[character]
+success_symbol = '[?](fg:green bg:#696969)'
+error_symbol = '[✗](fg:red bg:#696969)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[ 󱑍 $time ](bg:#1C3A5E fg:#8DFBD2)]($style)'
