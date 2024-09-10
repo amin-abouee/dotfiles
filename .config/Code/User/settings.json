@@ -1,0 +1,156 @@
+{
+    "python.pythonPath": "/usr/local/bin/python3",
+    "latex-workshop.view.pdf.external.synctex": {
+        "command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+        "args": [
+            "-r",
+            "%LINE%",
+            "%PDF%",
+            "%TEX%"
+        ]
+    },
+    "latex-workshop.view.pdf.viewer": "external",
+    "cmake.configureOnOpen": true,
+    "git.autofetch": true,
+    "cSpell.userWords": [
+        "Abouee",
+        "Aruco",
+        "Axisd",
+        "C'tor",
+        "Coeffs",
+        "D'tor",
+        "DNNs",
+        "EASYLOGGINGPP",
+        "Eigen",
+        "Homography",
+        "Levenberg",
+        "Marquardt",
+        "Undistort",
+        "cheirality",
+        "epipole",
+        "hconcat",
+        "imshow",
+        "nlohmann",
+        "odometry",
+        "reprojection"
+    ],
+    "editor.renderWhitespace": "all",
+    "C_Cpp.updateChannel": "Insiders",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[python]": 
+    {
+        "editor.rulers": [
+            {"column":  79, "color": "#92577488"}, // right rule minus one
+            // {"column":  80, "color": "#8a4c4c88"}, // right rule
+            {"column": 120, "color": "#ff040440"}  // extra right rule
+        ],
+        "editor.formatOnType": true,
+    },
+    "[cpp]": 
+    {
+        "editor.rulers": [
+            {"column":  80, "color": "#92577488"}, // right rule minus one
+            // {"column":  80, "color": "#8a4c4c88"}, // right rule
+            {"column": 120, "color": "#ff040440"}  // extra right rule
+        ],
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "explorer.confirmDelete": false,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "bibtex",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "workbench.colorTheme": "One Monokai",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#71069b79"
+    },
+    "git.confirmSync": false,
+    "c-cpp-flylint.clang.language": "c++",
+    "c-cpp-flylint.clang.standard": ["c++11", "c++14", "c++17", "c++20"],
+    "c-cpp-flylint.clang.warnings": [
+        "all",
+        "extra",
+        "conversion"
+    ],
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.clang.extraArgs": [
+        "-Wno-c++98-compat"
+    ],
+    "c-cpp-flylint.clang.executable": "/usr/bin/clang",
+    "c-cpp-flylint.clang.standardLibs": [
+        "libc++"
+    ],
+    "c-cpp-flylint.clang.includePaths": [
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include", 
+        "/usr/local/include"
+    ],
+    "todo-tree.tree.showScanModeButton": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "git.enableSmartCommit": true,
+    "projectManager.git.baseFolders": [
+        "/Users/amin/Workspace"
+    ],
+    "c-cpp-flylint.cppcheck.enable": false,
+    "c-cpp-flylint.enable": false,
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": false
+    },
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "python.formatting.autopep8Args": [ 
+        "--max-line-length", "120"
+    ],
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.inheritEnv": false,
+    "editor.stickyScroll.enabled": true,
+    "CodeGPT.model": "code-davinci-002",
+    "window.zoomLevel": 1,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "cmake.showOptionsMovedNotification": false,
+    "jupyter.askForLargeDataFrames": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "window.openFoldersInNewWindow": "off",
+}

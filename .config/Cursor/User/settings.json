@@ -1,0 +1,134 @@
+{
+    "cmake.configureOnOpen": true,
+    "git.autofetch": true,
+    "cSpell.userWords": [
+        "Abouee",
+        "Aruco",
+        "Axisd",
+        "C'tor",
+        "Coeffs",
+        "D'tor",
+        "DNNs",
+        "EASYLOGGINGPP",
+        "Eigen",
+        "Homography",
+        "Levenberg",
+        "Marquardt",
+        "Undistort",
+        "cheirality",
+        "epipole",
+        "hconcat",
+        "imshow",
+        "nlohmann",
+        "odometry",
+        "reprojection"
+    ],
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.rulers": [
+            {
+                "column": 79,
+                "color": "#92577488"
+            },
+            {
+                "column": 120,
+                "color": "#ff040440"
+            }
+        ],
+        "editor.formatOnType": true
+    },
+    "[cpp]": {
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#92577488"
+            },
+            {
+                "column": 120,
+                "color": "#ff040440"
+            }
+        ],
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "explorer.confirmDelete": false,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "bibtex",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "workbench.colorTheme": "One Monokai",
+    "workbench.colorCustomizations": {
+        /* error squiggles */
+        "editorError.foreground": "#e54082",
+        "editorError.background": "#644444",
+        /* warning squggles */
+        "editorWarning.foreground": "#da5ff3",
+        "editorWarning.background": "#4d3e5b",
+        /* info squiggles */
+        "editorInfo.foreground": "#e19c41",
+        "editorInfo.background": "#6d643c"
+    },
+    "git.confirmSync": false,
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "git.enableSmartCommit": true,
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.inheritEnv": false,
+    "editor.stickyScroll.enabled": true,
+    "window.zoomLevel": 1,
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "window.openFoldersInNewWindow": "off",
+    "editor.minimap.enabled": true,
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+}
