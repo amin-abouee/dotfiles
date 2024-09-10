@@ -132,6 +132,7 @@ export ARCHFLAGS="-arch x86_64"
 alias zshconfig="hx ~/.zshrc"
 alias ohmyzsh="hx ~/.oh-my-zsh"
 alias gitlog="git log --oneline --graph --decorate --all"
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 if [ -x "$(command -v bat)" ]; then
     alias cat="bat"
@@ -187,4 +188,4 @@ eval "$(starship init zsh)"
 
 source /home/aabouee/.config/broot/launcher/bash/br
 
-alias tree= "br --sizes --permissions --hidden"
+alias tree="br --sizes --permissions --hidden"

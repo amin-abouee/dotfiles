@@ -9,6 +9,15 @@ local config = wezterm.config_builder()
 -- For example, changing the color scheme:
 config.color_scheme = 'Neutron'
 
+-- config.font = wezterm.font("MesloNG Nerd Font")
+config.font = wezterm.font("JetBrainsMono Nerd Font")
+
+--config.font = wezterm.font_with_fallback {
+--  'JetBrainsMono Nerd Font',
+--  'Roboto Nerd Font',
+--  'MesloNG Nerd Font'
+--}
+
 config.enable_scroll_bar = false
 -- config.use_fancy_tab_bar = false
 
