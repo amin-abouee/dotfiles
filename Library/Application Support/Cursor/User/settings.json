@@ -1,0 +1,132 @@
+{
+    "latex-workshop.view.pdf.external.synctex": {
+        "command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+        "args": [
+            "-r",
+            "%LINE%",
+            "%PDF%",
+            "%TEX%"
+        ]
+    },
+    "latex-workshop.view.pdf.viewer": "external",
+    "cmake.configureOnOpen": true,
+    "git.autofetch": true,
+    "cSpell.userWords": [
+        "Abouee",
+        "Aruco",
+        "Axisd",
+        "C'tor",
+        "Coeffs",
+        "D'tor",
+        "DNNs",
+        "EASYLOGGINGPP",
+        "Eigen",
+        "Homography",
+        "Levenberg",
+        "Marquardt",
+        "Undistort",
+        "cheirality",
+        "epipole",
+        "hconcat",
+        "imshow",
+        "nlohmann",
+        "odometry",
+        "reprojection"
+    ],
+    "editor.renderWhitespace": "all",
+    "C_Cpp.updateChannel": "Insiders",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[python]": {
+        "editor.rulers": [
+            {
+                "column": 79,
+                "color": "#92577488"
+            },
+            {
+                "column": 120,
+                "color": "#ff040440"
+            }
+        ],
+        "editor.formatOnType": true
+    },
+    "[cpp]": {
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#92577488"
+            },
+            {
+                "column": 120,
+                "color": "#ff040440"
+            }
+        ],
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "explorer.confirmDelete": false,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "bibtex",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "workbench.colorTheme": "One Monokai",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#71069b79"
+    },
+    "git.confirmSync": false,
+    "terminal.integrated.fontFamily": "'MonaspiceNe Nerd Font Mono'",
+    "git.enableSmartCommit": true,
+
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.inheritEnv": false,
+    "editor.stickyScroll.enabled": true,
+    "window.zoomLevel": 1,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cursor.cpp.disabledLanguages": [
+        "markdown"
+    ],
+    "editor.fontFamily": "'MonaspiceNe Nerd Font Mono'",
+    "editor.fontSize": 13,
+    "ruff.lineLength": 120,
+    "ruff.lint.run": "onSave"
+}

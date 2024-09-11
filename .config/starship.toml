@@ -6,9 +6,7 @@ $username\
 $time\
 [](fg:#1C3A5E bg:#3B76F0)\
 $directory\
-[](fg:#3B76F0 bg:#FF6347)\
-$conda\
-[](fg:#FF6347 bg:#FCF392)\
+[](fg:#3B76F0 bg:#FCF392)\
 $git_branch\
 $git_commit\
 $git_state\
@@ -63,11 +61,6 @@ truncation_symbol = "…/"
 "Music" = "󰝚 "
 "Pictures" = " "
 "Developer" = "󰲋 "
-
-[conda]
-ignore_base = false
-style = "fg:#202020 bg:#FF6347"
-format = '[ $symbol( $environment) ]($style)'
 
 [git_branch]
 format = '[ $symbol$branch(:$remote_branch) ]($style)'

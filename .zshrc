@@ -11,7 +11,6 @@ export PATH="/usr/local/opt/util-linux/sbin:/usr/local/opt/util-linux/bin:/usr/l
 
 export GNUTERM=qtexport
 export EDITOR=hx
-# export LANG="en_EN.UTF-8"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/amin/.oh-my-zsh"
@@ -127,19 +126,18 @@ alias ohmyzsh="hx ~/.oh-my-zsh"
 alias python="python3" 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-#if [ -x "$(command -v colorls)" ]; then
-#    alias cls="colorls --sd"
-#    alias cla="colorls --sd --icons -al"
-#    alias clt="colorls --sd -al --tree"
-#fi
-
-if [ -x "$(command -v exa)" ]; then
-    alias ls="exa --icons --group-directories-first"
-    alias la="exa --icons --long --all --group-directories-first --group"
-    alias lt="exa --icons --long --all --group-directories-first --group --tree --level=2"
+if [ -x "$(command -v eza)" ]; then
+    alias ls="eza --icons --color-scale --group-directories-first"
+    alias lt="eza --icons --color-scale --long --all --group-directories-first --group --tree --level=2"
 fi
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+#if [ -x "$(command -v exa)" ]; then
+#    alias ls="exa --icons --group-directories-first"
+#    alias la="exa --icons --long --all --group-directories-first --group"
+#    alias lt="exa --icons --long --all --group-directories-first --group --tree --level=2"
+#fi
+
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -149,12 +147,14 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Fig post block. Keep at the bottom of this file.
 #[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh
 
-
 source "$HOME/.cargo/env"
+
 eval "$(starship init zsh)"
 
 source /Users/amin/.config/broot/launcher/bash/br
 
+alias tree="br --sizes --dates"
+alias cat="bat"
 
 # . "$HOME/.atuin/bin/env"
 
