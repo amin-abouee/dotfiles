@@ -10,7 +10,8 @@ local config = wezterm.config_builder()
 config.color_scheme = 'Neutron'
 
 -- config.font = wezterm.font("MesloNG Nerd Font")
-config.font = wezterm.font("JetBrainsMono Nerd Font")
+-- config.font = wezterm.font("JetBrainsMono Nerd Font")
+config.font = wezterm.font("MonaspiceNe Nerd Font", {weight="Regular", stretch="Normal", style="Normal"})
 
 --config.font = wezterm.font_with_fallback {
 --  'JetBrainsMono Nerd Font',

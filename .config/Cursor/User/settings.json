@@ -106,7 +106,7 @@
         "editorInfo.background": "#6d643c"
     },
     "git.confirmSync": false,
-    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "terminal.integrated.fontFamily": "'MonaspiceNe Nerd Font', 'Hack Nerd Font'",
     "git.enableSmartCommit": true,
     "editor.inlineSuggest.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -127,8 +127,8 @@
     "C_Cpp.default.cStandard": "c17",
     "editor.defaultFormatter": "ms-vscode.cpptools",
     "editor.formatOnSave": true,
-    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.fontFamily": "'MonaspiceNe Nerd Font'",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "C_Cpp.clang_format_fallbackStyle": "Google",
 }
