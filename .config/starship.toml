@@ -67,7 +67,7 @@ truncation_symbol = "…/"
 [conda]
 ignore_base = false
 style = "fg:#202020 bg:#E77263"
-format = '[ $symbol( $environment) ]($style)'
+format = '[  ( $environment) ]($style)'
 
 [git_branch]
 format = '[ $symbol$branch(:$remote_branch) ]($style)'

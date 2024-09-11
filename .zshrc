@@ -188,4 +188,4 @@ eval "$(starship init zsh)"
 
 source /home/aabouee/.config/broot/launcher/bash/br
 
-alias tree="br --sizes --permissions --hidden"
+alias tree="br --sizes --dates"
