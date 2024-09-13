@@ -131,4 +131,5 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "C_Cpp.clang_format_fallbackStyle": "Google",
+    "ruff.lineLength": 120,
 }

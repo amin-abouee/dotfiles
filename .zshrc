@@ -188,4 +188,8 @@ eval "$(starship init zsh)"
 
 source /home/aabouee/.config/broot/launcher/bash/br
 
-alias tree="br --sizes --dates"
+alias tree="br --dates"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh --disable-up-arrow)"
