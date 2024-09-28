@@ -156,6 +156,4 @@ source /Users/amin/.config/broot/launcher/bash/br
 alias tree="br --sizes --dates"
 alias cat="bat"
 
-# . "$HOME/.atuin/bin/env"
-
-# eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"
