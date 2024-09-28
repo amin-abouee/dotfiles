@@ -1,5 +1,5 @@
 format = """\
-[](bg:#030B16 fg:#7DF9AA)\
+[](fg:#7DF9AA)\
 $os\
 $username\
 [](fg:#7DF9AA bg:#1C3A5E)\
