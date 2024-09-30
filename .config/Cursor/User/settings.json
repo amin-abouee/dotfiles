@@ -24,7 +24,6 @@
         "reprojection"
     ],
     "editor.renderWhitespace": "all",
-    "terminal.integrated.shell.osx": "/bin/zsh",
     "diffEditor.ignoreTrimWhitespace": true,
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
@@ -130,6 +129,13 @@
     "editor.fontFamily": "'MonaspiceNe Nerd Font'",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "C_Cpp.clang_format_fallbackStyle": "Google",
     "ruff.lineLength": 120,
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.doxygen.generatedStyle": "/**",
+    "cursor.chat.showSuggestedFiles": true,
 }
