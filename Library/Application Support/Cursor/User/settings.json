@@ -128,5 +128,7 @@
     "editor.fontFamily": "'MonaspiceNe Nerd Font Mono'",
     "editor.fontSize": 13,
     "ruff.lineLength": 120,
-    "ruff.lint.run": "onSave"
+    "ruff.lint.run": "onSave",
+    "cursor.cmdk.useThemedDiffBackground": true,
+    "cursor.terminal.usePreviewBox": true
 }

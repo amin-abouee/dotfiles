@@ -12,6 +12,8 @@ config.font = wezterm.font("MonaspiceNe Nerd Font", {weight="Regular", stretch="
 
 --config.tab_max_width = 30
 
+config.scrollback_lines = 10000
+
 config.enable_scroll_bar = false
 
 -- Change the tab bar position
