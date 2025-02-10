@@ -77,24 +77,24 @@ zstyle ':omz:update' frequency 7
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git 
+plugins=(git
         sudo
         ubuntu
         docker
-        pip 
+        pip
         z
         fzf
         autoupdate
-        extract 
+        extract
         zsh-syntax-highlighting
         zsh-autosuggestions
         zsh-completions
-        colored-man-pages 
-        ros 
-        git-flow 
-        git-lfs 
+        colored-man-pages
+        ros
+        git-flow
+        git-lfs
       	python
-        ssh-agent 
+        ssh-agent
 	      git-prompt
 	      zsh_codex)
 
@@ -133,6 +133,9 @@ alias zshconfig="hx ~/.zshrc"
 alias ohmyzsh="hx ~/.oh-my-zsh"
 alias gitlog="git log --oneline --graph --decorate --all"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias grep='batgrep --terminal-width=280'
+alias diff='batdiff'
+alias man='batman'
 
 if [ -x "$(command -v bat)" ]; then
     alias cat="bat"
@@ -193,3 +196,6 @@ alias tree="br --dates"
 . "$HOME/.atuin/bin/env"
 
 eval "$(atuin init zsh --disable-up-arrow)"
+export PATH="/home/aabouee/.pixi/bin:$PATH"
+
+export OPENAI_API_KEY="sk-or-v1-38bba9e8edee91e2ab43218ea13ae4ad76ded761ffc24033dc4f097ff1a026f"

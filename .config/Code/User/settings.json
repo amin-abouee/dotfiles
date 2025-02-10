@@ -1,14 +1,4 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3",
-    "latex-workshop.view.pdf.external.synctex": {
-        "command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
-        "args": [
-            "-r",
-            "%LINE%",
-            "%PDF%",
-            "%TEX%"
-        ]
-    },
     "latex-workshop.view.pdf.viewer": "external",
     "cmake.configureOnOpen": true,
     "git.autofetch": true,
@@ -40,12 +30,16 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "[python]": 
     {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
         "editor.rulers": [
             {"column":  79, "color": "#92577488"}, // right rule minus one
             // {"column":  80, "color": "#8a4c4c88"}, // right rule
             {"column": 120, "color": "#ff040440"}  // extra right rule
         ],
-        "editor.formatOnType": true,
     },
     "[cpp]": 
     {
@@ -94,36 +88,20 @@
     ],
     "workbench.colorTheme": "One Monokai",
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#71069b79"
+        /* error squiggles */
+        "editorError.foreground": "#e54082",
+        "editorError.background": "#644444",
+        /* warning squggles */
+        "editorWarning.foreground": "#da5ff3",
+        "editorWarning.background": "#4d3e5b",
+        /* info squiggles */
+        "editorInfo.foreground": "#e19c41",
+        "editorInfo.background": "#6d643c"
     },
     "git.confirmSync": false,
-    "c-cpp-flylint.clang.language": "c++",
-    "c-cpp-flylint.clang.standard": ["c++11", "c++14", "c++17", "c++20"],
-    "c-cpp-flylint.clang.warnings": [
-        "all",
-        "extra",
-        "conversion"
-    ],
-    "c-cpp-flylint.flexelint.enable": false,
-    "c-cpp-flylint.clang.extraArgs": [
-        "-Wno-c++98-compat"
-    ],
-    "c-cpp-flylint.clang.executable": "/usr/bin/clang",
-    "c-cpp-flylint.clang.standardLibs": [
-        "libc++"
-    ],
-    "c-cpp-flylint.clang.includePaths": [
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include", 
-        "/usr/local/include"
-    ],
     "todo-tree.tree.showScanModeButton": false,
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "git.enableSmartCommit": true,
-    "projectManager.git.baseFolders": [
-        "/Users/amin/Workspace"
-    ],
-    "c-cpp-flylint.cppcheck.enable": false,
-    "c-cpp-flylint.enable": false,
     "editor.inlineSuggest.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "github.copilot.enable": {
@@ -136,21 +114,35 @@
         "FIG_NEW_SESSION": "1"
     },
     "workbench.iconTheme": "vscode-icons",
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "120"
-    ],
-    "python.formatting.autopep8Args": [ 
-        "--max-line-length", "120"
-    ],
     "editor.accessibilitySupport": "off",
     "terminal.integrated.inheritEnv": false,
     "editor.stickyScroll.enabled": true,
-    "CodeGPT.model": "code-davinci-002",
     "window.zoomLevel": 1,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "cmake.showOptionsMovedNotification": false,
     "jupyter.askForLargeDataFrames": false,
     "cmake.showConfigureWithDebuggerNotification": false,
     "window.openFoldersInNewWindow": "off",
+    "redhat.telemetry.enabled": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'MonaspiceNe Nerd Font'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontFamily": "'MonaspiceNe Nerd Font', 'Hack Nerd Font'",
+    "ruff.format.args": ["--line-length=120"],
+    "ruff.lint.args": [
+        "--line-length=120"
+    ],
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.doxygen.generatedStyle": "/**",
 }

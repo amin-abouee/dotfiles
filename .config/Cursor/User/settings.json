@@ -1,4 +1,5 @@
 {
+    "latex-workshop.view.pdf.viewer": "external",
     "cmake.configureOnOpen": true,
     "git.autofetch": true,
     "cSpell.userWords": [
@@ -24,6 +25,8 @@
         "reprojection"
     ],
     "editor.renderWhitespace": "all",
+    "C_Cpp.updateChannel": "Insiders",
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "diffEditor.ignoreTrimWhitespace": true,
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
@@ -40,8 +43,7 @@
                 "column": 120,
                 "color": "#ff040440"
             }
-        ],
-        "editor.formatOnType": true
+        ]
     },
     "[cpp]": {
         "editor.rulers": [
@@ -94,42 +96,54 @@
     ],
     "workbench.colorTheme": "One Monokai",
     "workbench.colorCustomizations": {
-        /* error squiggles */
         "editorError.foreground": "#e54082",
         "editorError.background": "#644444",
-        /* warning squggles */
         "editorWarning.foreground": "#da5ff3",
         "editorWarning.background": "#4d3e5b",
-        /* info squiggles */
         "editorInfo.foreground": "#e19c41",
         "editorInfo.background": "#6d643c"
     },
     "git.confirmSync": false,
+    "todo-tree.tree.showScanModeButton": false,
     "terminal.integrated.fontFamily": "'MonaspiceNe Nerd Font', 'Hack Nerd Font'",
     "git.enableSmartCommit": true,
     "editor.inlineSuggest.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": false
+    },
     "terminal.integrated.env.osx": {
         "FIG_NEW_SESSION": "1"
     },
+    "workbench.iconTheme": "vscode-icons",
     "editor.accessibilitySupport": "off",
     "terminal.integrated.inheritEnv": false,
     "editor.stickyScroll.enabled": true,
     "window.zoomLevel": 1,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "cmake.showOptionsMovedNotification": false,
+    "jupyter.askForLargeDataFrames": false,
     "cmake.showConfigureWithDebuggerNotification": false,
     "window.openFoldersInNewWindow": "off",
-    "editor.minimap.enabled": true,
-    "C_Cpp.formatting": "clangFormat",
-    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
-    "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.cStandard": "c17",
+    "redhat.telemetry.enabled": true,
     "editor.defaultFormatter": "ms-vscode.cpptools",
     "editor.formatOnSave": true,
     "editor.fontFamily": "'MonaspiceNe Nerd Font'",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "ruff.lineLength": 120,
+    "ruff.format.args": [
+        "--line-length=120"
+    ],
+    "ruff.lint.args": [
+        "--line-length=120"
+    ],
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
     "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
     "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
     "C_Cpp.inlayHints.parameterNames.enabled": true,
@@ -137,5 +151,8 @@
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_sortIncludes": true,
     "C_Cpp.doxygen.generatedStyle": "/**",
-    "cursor.chat.showSuggestedFiles": true,
+    "gitlab.duoCodeSuggestions.enabled": false,
+    "gitlab.duoChat.enabled": false,
+    "gitlab.duo.enabledWithoutGitlabProject": false,
+    "window.title": "${dirty}${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${profileName}${separator}${appName}"
 }
