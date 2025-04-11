@@ -130,5 +130,6 @@
     "ruff.lineLength": 120,
     "ruff.lint.run": "onSave",
     "cursor.cmdk.useThemedDiffBackground": true,
-    "cursor.terminal.usePreviewBox": true
+    "cursor.terminal.usePreviewBox": true,
+    "geminicodeassist.project": ""
 }

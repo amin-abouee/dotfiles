@@ -6,7 +6,7 @@ local config = {}
 -- config.color_scheme = "Neutron"
 config.color_scheme = "Neon (terminal.sexy)"
 
-config.font_size = 13.0
+config.font_size = 15.0
 
 config.font = wezterm.font("MonaspiceNe Nerd Font", {weight="Regular", stretch="Normal", style="Normal"})
 
