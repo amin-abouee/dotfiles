@@ -197,5 +197,3 @@ alias tree="br --dates"
 
 eval "$(atuin init zsh --disable-up-arrow)"
 export PATH="/home/aabouee/.pixi/bin:$PATH"
-
-export OPENAI_API_KEY="sk-or-v1-38bba9e8edee91e2ab43218ea13ae4ad76ded761ffc24033dc4f097ff1a026f"
