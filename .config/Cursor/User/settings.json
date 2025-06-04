@@ -103,7 +103,6 @@
         "editorInfo.background": "#6d643c"
     },
     "git.confirmSync": false,
-    "todo-tree.tree.showScanModeButton": false,
     "terminal.integrated.fontFamily": "'MonaspiceNe Nerd Font', 'Hack Nerd Font'",
     "git.enableSmartCommit": true,
     "editor.inlineSuggest.enabled": true,
@@ -124,7 +123,6 @@
     "editor.stickyScroll.enabled": true,
     "window.zoomLevel": 1,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
-    "cmake.showOptionsMovedNotification": false,
     "jupyter.askForLargeDataFrames": false,
     "cmake.showConfigureWithDebuggerNotification": false,
     "window.openFoldersInNewWindow": "off",
@@ -143,7 +141,6 @@
     "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
     "C_Cpp.inlayHints.parameterNames.enabled": true,
     "C_Cpp.inlayHints.referenceOperator.enabled": true,
-    "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_sortIncludes": true,
     "C_Cpp.doxygen.generatedStyle": "/**",
     "gitlab.duoCodeSuggestions.enabled": false,
@@ -151,7 +148,6 @@
     "gitlab.duo.enabledWithoutGitlabProject": false,
     "window.title": "${dirty}${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${profileName}${separator}${appName}",
     "makefile.configureOnOpen": true,
-    "geminicodeassist.project": "",
-    "geminicodeassist.inlineSuggestions.enableAuto": false,
-    "github.copilot.selectedCompletionModel": ""
+    "github.copilot.selectedCompletionModel": "",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-16"
 }

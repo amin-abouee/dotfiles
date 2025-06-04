@@ -99,27 +99,22 @@
         "editorInfo.background": "#6d643c"
     },
     "git.confirmSync": false,
-    "todo-tree.tree.showScanModeButton": false,
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "git.enableSmartCommit": true,
     "editor.inlineSuggest.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "github.copilot.enable": {
-        "*": true,
-        "yaml": true,
-        "plaintext": true,
-        "markdown": false
+        "*": false
     },
     "terminal.integrated.env.osx": {
         "FIG_NEW_SESSION": "1"
     },
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.accessibilitySupport": "off",
     "terminal.integrated.inheritEnv": false,
     "editor.stickyScroll.enabled": true,
     "window.zoomLevel": 1,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
-    "cmake.showOptionsMovedNotification": false,
     "jupyter.askForLargeDataFrames": false,
     "cmake.showConfigureWithDebuggerNotification": false,
     "window.openFoldersInNewWindow": "off",
@@ -145,4 +140,9 @@
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_sortIncludes": true,
     "C_Cpp.doxygen.generatedStyle": "/**",
+    "yaml.schemas": {
+        "/home/aabouee/.vscode/extensions/continue.continue-1.0.10-linux-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
 }
